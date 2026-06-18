@@ -1,0 +1,16 @@
+em fortaleza
+
+olha camera local
+
+foco ceu
+recorte ceu 0 0 1 .6
+
+ceu.claro -> clareia
+ceu.nuvem -> nubla
+ceu.azul -> azula
+ceu.rosa -> rosa
+ceu.movimento -> rastro
+
+quando ceu.nuvem > .6:
+  escreve "céu baixo"
+  nubla .8

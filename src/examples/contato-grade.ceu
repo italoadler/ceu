@@ -1,0 +1,15 @@
+em fortaleza
+
+toca contato "grade"
+ouve microfone
+
+contato.batida -> estouro
+contato.textura -> granula
+contato.nivel -> treme
+
+microfone.ruido -> chiado
+
+quando contato.batida > .75:
+  escreve "a cidade vibra"
+  pisca .9
+  grave .8

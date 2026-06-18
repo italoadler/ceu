@@ -1,0 +1,26 @@
+em fortaleza
+
+olha camera local
+ouve microfone
+sente tempo fortaleza
+
+foco ceu
+recorte ceu 0 0 1 .55
+
+limpido .85
+azula .8
+satura .45
+
+ceu.claro -> clareia
+ceu.nuvem -> nubla
+ceu.movimento -> ondula
+
+microfone.nivel -> chiado
+tempo.calor -> queima
+tempo.vento -> arrasta
+tempo.umidade -> linhas
+
+quando tempo.calor > .75:
+  escreve "mormaço"
+  grave .7
+  queima .6

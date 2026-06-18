@@ -1,0 +1,18 @@
+em fortaleza
+
+sente tempo fortaleza
+
+nubla .45
+escurece .18
+linhas .16
+mar .42
+azula .28
+
+tempo.chuva -> nubla
+tempo.umidade -> borra
+tempo.vento -> ondula
+
+quando tempo.chuva > .2:
+  escreve "chuva perto"
+  croma .18
+

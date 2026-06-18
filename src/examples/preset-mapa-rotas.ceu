@@ -1,0 +1,17 @@
+em fortaleza
+
+sente tempo fortaleza
+sente ar fortaleza
+
+mapa .84
+ruas .82
+quadras .5
+rotas .68
+contorno .36
+pontos .58
+fluxo .78
+azula .42
+
+tempo.vento -> fluxo
+ar.pm25 -> pontos
+

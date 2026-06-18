@@ -1,0 +1,18 @@
+em fortaleza
+
+sente tempo fortaleza
+
+limpido .86
+azula .74
+mar .68
+dunas .76
+areia .88
+
+tempo.vento -> ondula
+tempo.calor -> queima
+ceu.rosa -> rosa
+
+quando tempo.umidade > .55:
+  escreve "ar salgado"
+  linhas .12
+

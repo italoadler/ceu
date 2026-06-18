@@ -1,0 +1,18 @@
+em fortaleza
+
+sente satelites fortaleza
+
+escurece .35
+limpido .72
+satelites .9
+orbita .78
+passagem .86
+rastro .28
+
+satelite.visivel -> passagem
+satelite.altitude -> clareia
+satelite.quantidade -> pontos
+
+quando satelite.visivel > .5:
+  escreve "passagem orbital"
+

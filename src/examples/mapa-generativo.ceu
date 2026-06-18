@@ -1,0 +1,26 @@
+em fortaleza
+
+sente tempo fortaleza
+sente ar fortaleza
+
+limpido .85
+azula .9
+ceu .76
+mapa .82
+ruas .78
+quadras .52
+rotas .65
+contorno .34
+pontos .58
+fluxo .72
+mistura .42
+
+tempo.vento -> fluxo
+cidade.movimento -> rotas
+ar.pm25 -> pontos
+
+quando tempo.calor > .7:
+  escreve "cidade quente"
+  croma .35
+  linhas .28
+

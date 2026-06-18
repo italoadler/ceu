@@ -1,0 +1,15 @@
+em fortaleza
+
+sente satelites fortaleza
+
+escurece .28
+montanhas .82
+satelites .75
+orbita .62
+passagem .7
+contrasta .28
+
+satelite.visivel -> passagem
+satelite.altitude -> clareia
+satelite.proximo -> croma
+

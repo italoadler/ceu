@@ -1,0 +1,18 @@
+em fortaleza
+
+sente tempo fortaleza
+sente ar fortaleza
+
+cidade .82
+montanhas .28
+azula .35
+contrasta .24
+
+cidade.luz -> clareia
+cidade.movimento -> arrasta
+ar.pm25 -> granula
+
+quando cidade.movimento > .62:
+  escreve "cidade em fluxo"
+  rastro .32
+

@@ -1,0 +1,28 @@
+em fortaleza
+
+olha imagem "https://upload.wikimedia.org/wikipedia/commons/7/73/Fortaleza%2C_Brazil_%284%29_%28cropped%29.jpg"
+sente tempo fortaleza
+sente ar fortaleza
+
+imagem .82
+ceu .58
+mistura .36
+cidade .72
+mapa .32
+ruas .42
+rotas .28
+
+azula .46
+contrasta .3
+satura .28
+linhas .12
+
+cidade.luz -> clareia
+cidade.movimento -> arrasta
+ar.pm25 -> granula
+tempo.vento -> ondula
+
+quando cidade.movimento > .6:
+  escreve "fortaleza em fluxo"
+  rastro .28
+

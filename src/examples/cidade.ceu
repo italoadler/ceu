@@ -1,0 +1,23 @@
+em fortaleza
+
+olha camera local
+ouve microfone
+sente ar fortaleza
+
+foco cidade
+recorte cidade 0 .45 1 .55
+
+cidade .82
+montanhas .28
+azula .32
+
+cidade.movimento -> arrasta
+cidade.luz -> clareia
+cidade.densidade -> multiplica
+
+microfone.nivel -> falha
+ar.pm25 -> apaga
+
+quando cidade.movimento > .7:
+  escreve "cidade em fluxo"
+  treme .5

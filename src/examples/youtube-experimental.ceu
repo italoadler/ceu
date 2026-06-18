@@ -1,0 +1,34 @@
+# Exemplo experimental. O MVP nao depende de YouTube ou streams externos.
+# IDs verificados via oEmbed do YouTube em 2026-06-17:
+# WzQSJXY7Zfk  The Royal Institution — What Does Earth Look Like From Space?
+# 21X5lGlDOfg  NASA — NASA Live: Official Stream of NASA TV
+# TBikbn5XJhg  melodysheep — TIMELAPSE OF THE ENTIRE UNIVERSE
+em fortaleza
+
+olha youtube "WzQSJXY7Zfk"
+ouve microfone
+sente tempo fortaleza
+
+foco ceu
+recorte ceu 0 0 1 .55
+
+limpido .85
+azula .9
+satura .55
+
+ceu.claro -> clareia
+ceu.nuvem -> nubla
+ceu.movimento -> ondula
+microfone.nivel -> falha
+microfone.nivel -> croma
+
+video .72
+ceu .78
+mistura .25
+linhas .25
+pixeliza .18
+posteriza .16
+
+quando ceu.claro > .8:
+  escreve "luz dura"
+  queima .7

@@ -1,0 +1,24 @@
+em fortaleza
+
+sente tempo fortaleza
+sente satelites fortaleza
+
+limpido .9
+azula .95
+satura .48
+
+satelites .85
+orbita .72
+passagem .75
+rastro .34
+
+satelite.altitude -> clareia
+satelite.visivel -> passagem
+satelite.quantidade -> pontos
+satelite.proximo -> croma
+
+quando satelite.visivel > .5:
+  escreve "satelite sobre fortaleza"
+  linhas .18
+  croma .24
+

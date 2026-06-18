@@ -1,0 +1,17 @@
+em fortaleza
+
+sente tempo fortaleza
+
+limpido .78
+rosa .9
+satura .54
+queima .24
+
+ceu.rosa -> rosa
+ceu.claro -> clareia
+tempo.calor -> queima
+
+quando tempo.umidade > .62:
+  nubla .35
+  linhas .12
+
