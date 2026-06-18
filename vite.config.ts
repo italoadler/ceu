@@ -10,6 +10,11 @@ function resolvePagesBase(): string {
 }
 
 export default defineConfig(({ command }) => ({
-  base: command === "build" ? resolvePagesBase() : "/"
+  root: "src",
+  base: command === "build" ? resolvePagesBase() : "/",
+  build: {
+    outDir: "../dist",
+    emptyOutDir: true
+  },
+  cacheDir: "../node_modules/.vite"
 }));
-
